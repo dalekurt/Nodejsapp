@@ -2,7 +2,7 @@
 
 # This script is executed before copying the source
 
-sudo apt -get update
+sudo apt-get update
 sudo apt install curl
 
 curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
